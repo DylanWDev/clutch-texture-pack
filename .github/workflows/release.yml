@@ -18,7 +18,7 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          zip -r clutchpack.zip . -x '*.git*' '.github/*'
+          zip -r clutchpack.zip . -x '*.git*' '.github/*' '*.py'
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
