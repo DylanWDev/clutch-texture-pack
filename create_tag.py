@@ -74,6 +74,9 @@ def main():
         print(f"Error creating tag: {e}")
 
     print("Done!")
+    print(green("Run the following commands to update the resource pack on the server:"))
+    print(green("  /clutch reload"))
+    print(green("  /clutch resend"))
 
 
 if __name__ == "__main__":
